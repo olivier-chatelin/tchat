@@ -1,0 +1,269 @@
+
+*{
+    padding: 10px;
+    margin: 0;
+    /* margin: 10px; */
+    
+}
+body{
+    background-color: rgba(245, 222, 179, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.b-test1{
+    border: 1px solid red
+}
+.b-test2{
+    border: 1px solid blue
+}
+.b-test3{
+    border: 1px solid green
+}
+.bg-body{
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+.firstLine{
+    margin-top: 80px;
+}
+.j-start{
+    justify-content: flex-start;
+}
+.j-center{
+    justify-content: center;
+}
+.j-end{
+    justify-content: flex-end;
+}
+
+
+/* navbar */
+
+#logo{
+    display: inline-block;
+}
+.tLog{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Anton,sans-serif;
+    
+}.cha{
+    margin: 0;
+    padding: 0;
+    
+}
+#profile-container{
+    color:black
+}
+#profile-container:hover{
+    color: blue;
+    text-decoration: none;
+
+}
+
+/* connexion  */
+#logo
+{
+    width: max-content;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;  
+    margin-top: 10px;  
+
+}
+#connexion-container{
+    margin: auto;
+    margin-top: 200px;
+    width: 100%;
+}
+#connexion{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    
+}
+.reponse{
+    color: red;
+
+}
+#subtitle{
+    text-align: center;
+    margin: 0;
+    
+}
+#input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 10px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.sub{
+    width: max-content;
+    align-self: center;
+}
+#inscription-link{
+    margin-bottom: 20px;
+}
+
+
+
+
+.message-container{
+    
+    display: flex;
+    
+}
+.message{
+
+   
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mes-right{
+    background: rgba(160, 240, 144, 0.6);
+    border-radius: 10px 0px 10px 10px;
+    
+
+
+}
+.mes-right:after{
+    content: "";
+    position: absolute;
+    left:100%;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid rgba(160, 240, 144, 0.6);;
+    border-bottom: 18px solid transparent;
+}
+.mes-left{
+    background: rgba(247, 161, 161, 0.6);
+    border-radius: 0px 10px 10px 10px;
+    
+
+}
+.mes-left:before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-right: 18px solid rgba(247, 161, 161, 0.6);
+    border-bottom: 18px solid transparent;
+}
+.date
+{
+    align-self: flex-end;
+    font-size: 0.7rem;
+    padding-top: 5px;
+    padding-right: 0;
+    margin-bottom: 0;
+    opacity: 0.7;
+}
+.n-left{
+    color:  rgb(68, 170, 46);
+    align-self: flex-start;
+    margin: 0;
+    font-size: 0.8rem;
+    padding-left: 0;
+    padding-top: 0;
+}
+.n-right{
+    color:   rgb(161, 95, 95);
+    align-self: flex-start;
+    margin: 0;
+    font-size: 0.8rem;
+    padding-left: 0;
+    padding-top: 0;
+}
+/* index.html */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#profile{
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    margin: auto;
+    width: max-content;
+    padding-right: 10px;
+
+
+}
+#profileImg{
+    width: 50px;
+    background-image: url("source/images/profile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+/* messagewindow */
+#messagesWindow{
+    margin: 80px auto 0;
+    width: 800px;
+    height: 80vh;
+    overflow: scroll;
+}
+
+/* form */
+#inputs{
+    position: fixed;
+    bottom: 30px;
+    left: 30%;
+    
+
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: none;
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 35vw;
+    
+
+}
+
+#submit{
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+    margin: 5px;
+    border-radius: 100%;
+    border: none;
+    background-image: url(source/images/send.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+#submit:hover{
+    background-color: rgb(255, 201, 107);
+    cursor: pointer;
+
+
+}
